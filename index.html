@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Task Tracker</h1>
+  </header>
+  <main>
+    <h2>Add New Task</h2>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Enter your task" required>
+      <button type="submit">Add Task</button>
+    </form>
+    <div class="date-buttons">
+      <button id="today-btn">Today</button>
+      <button id="tomorrow-btn">Tomorrow</button>
+      <button id="date-btn">Pick a Date</button>
+      <input type="date" id="calendar-input" style="display: none;">
+    </div>
+    <h2>Your Tasks</h2>
+    <ul id="tasks"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
