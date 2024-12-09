@@ -12,3 +12,6 @@ The **Task Tracker** is a simple yet elegant web application designed to help us
   - Delete tasks once completed.
 - **Dynamic Date Selector**:
   - Choose dates from a calendar or pre-select options like "Today" and "Tomorrow."
+
+**The website is accessible on:**  
+https://mercedesov.github.io/task-tracker/
